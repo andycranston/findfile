@@ -34,7 +34,7 @@ You need Python 3 installed on your Windows laptop / desktop.
 
 Goto:
 
-[Python.org]<https://www.python.org/>
+[Python.org](https://www.python.org)>
 
 and look for the `Downloads` link.
 
