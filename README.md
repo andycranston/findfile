@@ -1,8 +1,8 @@
-# Find a file on your Windows laptop / desktop using Python 3 http.server module with CGI
+# Find a file on your Windows laptop or desktop using Python 3 http.server module with CGI
 
-Ever saved a file on your laptop / desktop and then cannot find it later?
+Ever saved a file on your laptop or desktop and then cannot find it later?
 
-The `findfile` Python script might help :-]
+The `findfile` Python script might help.
 
 ## How does it work?
 
@@ -13,12 +13,12 @@ creates a file called:
 listing.txt
 ```
 
-which is a list of all the files on your computer's `C:` drive.
+which is a list of all the files on the `C:` drive on your computer.
 
 Next you run another simple Windows batch file called `runff.bat` that starts a local
 web server running on port 8000.
 
-Now you open a web browser (e.g. one of Microsoft Edge, Mozilla FireFox or
+Now you open a web browser (for example one of Microsoft Edge, Mozilla FireFox or
 Google Chrome) and enter this URL into the address bar:
 
 ```
@@ -28,11 +28,11 @@ http://127.0.0.1:8000/cgi-bin/findfile.py
 You can now enter search text and look for file names containing that
 text.
 
-## Pre-requisites
+## Prerequisites
 
-You need Python 3 installed on your Windows laptop / desktop.
+You need Python 3 installed on your Windows laptop or desktop.
 
-Goto:
+Visit:
 
 [Python.org](https://www.python.org)
 
@@ -53,7 +53,7 @@ runff.bat
 ```
 
 to your user profile directory.  Your user profile directory is usually
-the directory you are placed in when you start the Command Prompt desktop app.
+the directory you are placed in when you start the Command Prompt desktop application.
 
 ## Running `findfile`
 
@@ -84,8 +84,8 @@ index
 ```
 
 This will run the `index.bat` Windows batch file.  Depending on
-how many files/directories are on your `C:` drive and how fast
-your laptop /desktop is this could take a few minues.
+how many files and directories are on your `C:` drive and how fast
+your laptop or desktop is this could take a few minutes.
 
 When the `index.bat` Windows batch file has completed type:
 
@@ -121,7 +121,7 @@ file suffix.  For example PDF files have a file suffix of `pdf`.
 
 ## Stopping `findfile`
 
-To stop the `findfile` local web server click on the 'X' at the top right corner of the window.
+To stop the `findfile` local web server type control ^C.
 
 ## A note on indexing
 
